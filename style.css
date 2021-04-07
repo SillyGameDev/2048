@@ -1,0 +1,20 @@
+.gameSpace {
+    background-color: bisque;
+    height: 4rem;
+    width: 4rem;
+    border-width:0.25rem;
+    border-color: gray;
+    border-style: solid;
+    text-align: center;
+    font-size: larger;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 4.75rem 4.75rem 4.75rem 4.75rem;
+    grid-row-gap: 0.25rem;
+    padding: 0.35rem;
+    background-color: white;
+}
+
+
